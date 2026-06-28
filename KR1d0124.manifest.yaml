@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1d0124/v1
+canonical_location: https://kanripo.org/bkk/KR1d0124/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 喪服古今集記一卷
+  identifiers:
+    krp: KR1d0124
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0124.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0124_001.yaml, hash: 'sha256:ffd7c366e37ff623da4437b1cb7b3a3aae622d0b43f06241d2c9045c6c44b6bd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0124_001.markers.yaml, hash: 'sha256:b8e956acb444ef7e169f370ffd3fa8e8e9f0c3b24996e25e4ce8478d0c027793'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0124_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2575
+  label: 喪服古今集記
+  type: section
+  level: 1
+hash: sha256:bd9ca4d105d270eb0c0973a22b0f0752090e5fca24b68dfbe540d3572c2021d9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
