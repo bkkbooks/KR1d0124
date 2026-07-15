@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR1d0124/v1
 canonical_location: https://kanripo.org/bkk/KR1d0124/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 喪服古今集記一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR1d0124_001.yaml, hash: 'sha256:1cf06e6a0499421793624b8e1704be6ece76a6310d0f74ef54d5980cd421f05e'}
+  - {seq: 1, filename: KR1d0124_001.yaml, hash: 'sha256:37cc47b50a2f3503e48e03db0b3462872e90e45c906757bee017d780a4056213'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR1d0124_001.markers.yaml, hash: 'sha256:203b151858bf0e7a2928b04f85bd9049eae84accbe78bac413236e334d4ad5b6'}
+  - {seq: 1, role: markers, filename: assets/KR1d0124_001.markers.yaml, hash: 'sha256:ebbaa9f02280ff9f4c28ef86b0de5ffd0721969f5ef3efe1eacbeb1c36014dab'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 喪服古今集記
   type: section
   level: 1
-hash: sha256:6be424debbfa31d7f0c71fa4365d99c61352ce2c5572ca38e6cec4281fd730fe
+hash: sha256:8aa21a56f8a341678d6a83120cdb6174b7bb6b8b8f14ac3eae408d8bb5b4deb0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
